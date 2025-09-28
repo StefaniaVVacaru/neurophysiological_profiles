@@ -81,9 +81,12 @@ secrets.json
 .prof
 
 # data
-data
+*.txt
+*.xlsx
+*.csv
 reports/
-*xlsx
-
+_archive/
+events batch 3
+signals batch 3
 # config
 Mindware data analysis.code-workspace
