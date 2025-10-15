@@ -61,9 +61,6 @@ Adjust the paths to match your subject ID and ensure the target directories exis
 ## Notebooks & Reporting
 - Run the numbered notebooks sequentially to reproduce full analyses: import/export cleanup (`001`), ECG pipeline walkthrough (`002`), EDA analysis (`003`), final dataset reshaping (`004`), and EDA preprocessing visualizations (`005`).
 - QA plots and intermediate summaries land in `reports/QA/`, providing visual checks before aggregating across segments.
-- Document important findings or edge cases in the Word documents under `docs/` to centralize project context.
 
-## Next Steps
-- Regenerate the environment (`conda env update -f environment.yml --prune`) whenever dependencies change.
-- Keep adding subject-specific parameter overrides inside `parameters.py` as new data arrives.
-- Consider adding automated tests or lightweight validation scripts for the ECG utilities to detect regressions early.
+## Use of AI
+Generative AI has only been used in assisting with documentation of this repository. This includes this and other readme files as well as some of the function docstrings. 
